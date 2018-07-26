@@ -7,6 +7,7 @@ function init(){
   titleHeader = document.getElementById("titleHeader");
   titleHeader.innerHTML = document.title;
 
-	// output = document.getElementById("body");
+	output = document.getElementById("body");
+  output.innerHTML = document.domain
 	// output.innerHTML += "</br>setup done";
 }
